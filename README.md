@@ -1,2 +1,3 @@
-# Coursera_Capstone
-Coursera_Capstone
+Capstone Project - The Battle of Neighborhoods
+
+
