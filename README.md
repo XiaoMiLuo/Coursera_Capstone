@@ -11,6 +11,7 @@
 ## Section 2: Data
 ### Get Postcode, Borough and Neighborhood information of Toronto from Wikipedia
 requests.get('https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M')
+
         Postcode   Borough          Neighborhood
     0   M3A        North York       Parkwoods
     1   M4A        North York       Victoria Village
