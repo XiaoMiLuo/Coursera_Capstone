@@ -36,6 +36,7 @@ requests.get('https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M')
     8   M4B         East York         Woodbine Gardens, Parkview Hill   43.706397   -79.309937
     9   M5B         Downtown Toronto  Ryerson, Garden District          43.657162   -79.378937
 ### Get venues information of Toronto from FourSquare
+url = 'https://api.foursquare.com/v2/venues/explore?&client_id={}&client_secret={}&v={}&ll={},{}&radius={}&limit={}'.format(CLIENT_ID,CLIENT_SECRET,VERSION,lat,lng,radius,LIMIT)
 
         Neighborhood        Neighborhood Latitude   Neighborhood Longitude  Venue                   Venue Latitude  Venue Longitude Venue Category
     0   Parkwoods           43.753259               -79.329656              Brookbanks Park         43.751976       -79.332140      Park
