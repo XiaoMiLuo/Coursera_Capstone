@@ -50,6 +50,10 @@ url = 'https://api.foursquare.com/v2/venues/explore?&client_id={}&client_secret=
     8   Victoria Village    43.725882               -79.315572              Tim Hortons             43.725517       -79.313103      Coffee Shop
     9   Victoria Village    43.725882               -79.315572              Portugril               43.725819       -79.312785      Portuguese Restaurant
 
+## Methodology
+Use k-means algorithm to cluster the neighborhoods based on 1) ratio of Asian Restaurant among all venue categories, and 2) top 5 venue categories in each neighborhood.
+## Result
+
 
 
 
